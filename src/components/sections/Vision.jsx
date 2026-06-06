@@ -42,7 +42,6 @@ function PillarRow({ num, text, isLast }) {
       >
         0{num}
       </span>
-      <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#2EAADC', flexShrink: 0, opacity: 0.55 }} />
       <span
         data-text=""
         style={{ fontFamily: F, fontSize: '13.5px', fontWeight: 500, color: 'rgba(13,31,60,0.70)', flex: 1, transition: 'color 0.22s', lineHeight: 1.5 }}
@@ -224,7 +223,6 @@ export default function Vision() {
                 <span style={{ fontFamily: F, fontSize: '8px', fontWeight: 700, letterSpacing: '0.26em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.28)' }}>
                   05 piliers stratégiques
                 </span>
-                <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#2EAADC', opacity: 0.5 }} />
               </div>
 
               {/* Pillar rows */}

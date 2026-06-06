@@ -143,7 +143,7 @@ export default function CTA() {
                 <span className="transition-colors duration-300 group-hover:text-[#2EAADC]" style={{ fontFamily: F, fontSize: '14px', fontWeight: 500, color: 'rgba(13,31,60,0.7)', flex: 1 }}>
                   caemi0901@gmail.com
                 </span>
-                <ArrowUpRight size={13} strokeWidth={2} className="text-[rgba(13,31,60,0.2)] group-hover:text-[#2EAADC] transition-colors duration-300 flex-shrink-0" />
+                <ArrowUpRight size={13} strokeWidth={2} className="hidden lg:block text-[rgba(13,31,60,0.2)] group-hover:text-[#2EAADC] transition-colors duration-300 flex-shrink-0" />
               </a>
 
               {/* Instagram row */}
@@ -170,7 +170,7 @@ export default function CTA() {
                 <span className="transition-colors duration-300 group-hover:text-[#2EAADC]" style={{ fontFamily: F, fontSize: '14px', fontWeight: 500, color: 'rgba(13,31,60,0.7)', flex: 1 }}>
                   @caemi_support
                 </span>
-                <ArrowUpRight size={13} strokeWidth={2} className="text-[rgba(13,31,60,0.2)] group-hover:text-[#2EAADC] transition-colors duration-300 flex-shrink-0" />
+                <ArrowUpRight size={13} strokeWidth={2} className="hidden lg:block text-[rgba(13,31,60,0.2)] group-hover:text-[#2EAADC] transition-colors duration-300 flex-shrink-0" />
               </a>
 
             </div>

@@ -66,6 +66,7 @@ function ServiceRow({ num, Icon, text, delay, isLast }) {
             flexShrink: 0,
             transition: 'color 0.22s',
           }}
+          className='hidden lg:block'
         >
           {num}
         </span>
@@ -212,7 +213,7 @@ export default function Services() {
             <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.26em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.28)' }}>
               08 services disponibles
             </span>
-            <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.22)' }}>
+            <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.22)' }} className='hidden lg:block'>
               Maroc → France
             </span>
           </div>

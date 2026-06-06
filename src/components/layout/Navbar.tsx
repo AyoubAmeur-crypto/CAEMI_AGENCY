@@ -3,12 +3,15 @@ import { useTranslation } from 'react-i18next';
 import { Menu, X, Globe, ChevronDown, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import useActiveSection from '../../hooks/useActiveSection';
+import Flag from 'react-world-flags';
 
 const FONT = "'Roboto', sans-serif";
 
+const FlagComponent = (Flag as any).default || Flag;
+
 const languages = [
-  { code: 'fr', label: 'Français', short: 'FR' },
-  { code: 'ar', label: 'العربية', short: 'AR' },
+  { code: 'fr', label: 'Français', short: <FlagComponent code='fr' className='w-4 h-4' /> },
+  { code: 'ar', label: 'العربية', short: <FlagComponent code='mar' className='w-4 h-4' /> },
 ];
 
 export default function Navbar() {
@@ -181,7 +184,7 @@ export default function Navbar() {
               }}
             >
               <Globe size={12} strokeWidth={1.6} />
-              <span>{currentLang?.short}</span>
+              <span>{currentLang?.code}</span>
               <motion.span
                 animate={{ rotate: langOpen ? 180 : 0 }}
                 transition={{ duration: 0.18 }}
@@ -228,7 +231,7 @@ export default function Navbar() {
               }}
             >
               <Globe size={12} strokeWidth={1.6} />
-              <span>{currentLang?.short}</span>
+              <span>{currentLang?.code}</span>
               <ChevronDown size={9} strokeWidth={2} />
             </button>
             <LangDropdown />

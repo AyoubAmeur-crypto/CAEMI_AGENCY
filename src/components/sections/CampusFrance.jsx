@@ -243,7 +243,7 @@ export default function CampusFrance() {
             </div>
 
             {/* Right label */}
-            <div style={{ position: 'absolute', right: '28px', top: '50%', transform: 'translateY(-50%)', textAlign: 'right' }}>
+            <div style={{ position: 'absolute', right: '28px', top: '50%', transform: 'translateY(-50%)', textAlign: 'right' }} className='hidden lg:block'>
               <div style={{ fontFamily: F, fontSize: '8px', fontWeight: 700, letterSpacing: '0.26em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: '4px' }}>
                 Partenaire officiel
               </div>
@@ -253,7 +253,7 @@ export default function CampusFrance() {
             </div>
 
             {/* Center divider line */}
-            <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '1px', height: '40%', background: 'rgba(255,255,255,0.08)' }} />
+            <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: '1px', height: '40%', background: 'rgba(255,255,255,0.08)' }} className='hidden lg:block' />
           </div>
         </RevealWrapper>
 
