@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, MapPin, GraduationCap, Users } from 'lucide-react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 
 const FONT = "'Roboto', sans-serif";
 
@@ -317,7 +317,7 @@ export default function Hero() {
               >
                 {/* Logo + name row */}
                 <div className="flex items-center gap-2.5 mb-3.5">
-                  <img src="/logo.png" alt="CAEMI" style={{ height: '24px', width: 'auto', objectFit: 'contain' }} />
+                  <img src="/logo.webp" alt="CAEMI" style={{ height: '24px', width: 'auto', objectFit: 'contain' }} />
                   <div>
                     <div style={{ fontFamily: FONT, fontSize: '12px', fontWeight: 700, letterSpacing: '0.18em', color: '#ffffff', lineHeight: 1 }}>
                       CAEMI

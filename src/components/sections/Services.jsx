@@ -5,7 +5,7 @@ import {
 } from 'lucide-react';
 import SectionTag from '../ui/SectionTag';
 import RevealWrapper from '../ui/RevealWrapper';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 
 const F = "'Roboto', sans-serif";
 

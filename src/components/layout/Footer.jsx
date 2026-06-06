@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Mail, Instagram, ArrowUpRight } from 'lucide-react';
 import RevealWrapper from '../ui/RevealWrapper';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 
 const F = "'Roboto', sans-serif";
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.png" alt="CAEMI Logo" width="200" />
+  <img src="./public/logo.webp" alt="CAEMI Logo" width="200" />
 </p>
 
 <h1 align="center">CAEMI Agency</h1>

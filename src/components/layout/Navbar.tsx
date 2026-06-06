@@ -125,7 +125,7 @@ export default function Navbar() {
 
         {/* ── Logo ── */}
         <a href="#" aria-label="CAEMI" className="flex items-center opacity-95 hover:opacity-80 transition-opacity duration-300">
-          <img src="/logo.png" alt="CAEMI" className="h-[46px] w-auto object-contain" />
+          <img src="/logo.webp" alt="CAEMI" className="h-[46px] w-auto object-contain" />
         </a>
 
         {/* ── Desktop Nav Links ── */}
