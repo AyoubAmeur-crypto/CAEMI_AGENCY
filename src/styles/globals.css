@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy:       #0D1F3C;
+    --sky:        #2EAADC;
+    --white:      #FFFFFF;
+    --cream:      #F5F0E8;
+    --gold:       #C9A84C;
+    --light-sky:  #E8F6FC;
+
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Roboto', sans-serif;
+  }
+
+  [lang="ar"] {
+    --font-display: 'Noto Naskh Arabic', serif;
+    --font-body: 'Noto Naskh Arabic', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    color: var(--navy);
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar matching CAEMI branding */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--navy);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--sky);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1a8bbf;
+  }
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle, rgba(46, 170, 220, 0.18) 0%, transparent 70%);
+}
+
+.bg-radial-gold {
+  background: radial-gradient(circle, rgba(201, 168, 76, 0.1) 0%, transparent 70%);
+}
+
+.bg-navy\/3 {
+  background-color: rgba(13, 31, 60, 0.03);
+}
+
+.min-height-screen {
+  min-height: 100vh;
+}

@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "services": "Services",
+    "vision": "Vision",
+    "team": "Équipe",
+    "register": "Inscription",
+    "instagram": "Instagram"
+  },
+  "hero": {
+    "tag": "Maroc → France",
+    "title_1": "Votre passerelle",
+    "title_2": "vers l'excellence",
+    "title_3": "académique",
+    "desc": "CAEMI accompagne les étudiants marocains dans leurs démarches Campus France .",
+    "cta_primary": "Découvrir nos services",
+    "cta_secondary": "Nous contacter",
+    "stat_services": "Services inclus",
+    "stat_networks": "Réseaux actifs",
+    "stat_custom": "Personnalisé"
+  },
+  "about": {
+    "tag": "Qui sommes-nous",
+    "title": "D'anciens étudiants CPGE à votre service",
+    "desc_1": "Le CAEMI est un collectif d'anciens étudiants des Classes Préparatoires aux Grandes Écoles (CPGE) qui ont eux-mêmes traversé le processus Campus France.",
+    "desc_2": "Grâce à nos contacts avec des universités françaises et des professeurs de renom, nous vous offrons un accompagnement personnalisé et de qualité.",
+    "card_exp_title": "Expérience terrain",
+    "card_exp_desc": "Nous avons réussi le processus Campus France nous-mêmes",
+    "card_net_title": "Réseau solide",
+    "card_net_desc": "Contacts privilégiés avec universités françaises",
+    "card_follow_title": "Suivi personnalisé",
+    "card_follow_desc": "Un accompagnement adapté à chaque profil",
+    "card_result_title": "Résultats prouvés",
+    "card_result_desc": "Des étudiants qui ont réussi leur intégration"
+  },
+  "campus": {
+    "tag": "C'est quoi",
+    "title": "Campus France",
+    "desc": "Campus France est l'organisme officiel chargé de gérer les demandes des étudiants étrangers qui souhaitent poursuivre leurs études en France.",
+    "role_1": "Centraliser toutes les demandes d'admission",
+    "role_2": "Vérifier la validité des dossiers (documents, lettres, CV, photo)",
+    "role_3": "Organiser les entretiens pédagogiques",
+    "role_4": "Servir de passerelle entre l'étudiant, les universités et le consulat"
+  },
+  "services": {
+    "tag": "Ce que nous faisons",
+    "title": "Nos Services",
+    "desc": "Un accompagnement complet de A à Z pour maximiser vos chances de réussite dans votre dossier Campus France.",
+    "s1": "Remplissage complet du dossier Campus France",
+    "s2": "Rédaction et optimisation du CV académique",
+    "s3": "Rédaction personnalisée de la lettre de motivation",
+    "s4": "Orientation et aide au choix des formations",
+    "s5": "Classement correct des documents",
+    "s6": "Optimisation de la photo d'identité",
+    "s7": "Accompagnement dépôt TCF",
+    "s8": "Suivi personnalisé du dossier"
+  },
+  "vision": {
+    "tag": "Notre raison d'être",
+    "title": "Vision & Mission",
+    "vision_label": "Vision",
+    "vision_text": "Devenir le référent d'accompagnement académique et administratif pour les étudiants marocains, reconnu pour notre fiabilité, notre proximité et l'accessibilité de nos solutions.",
+    "mission_label": "Mission",
+    "mission_text": "Simplifier toutes vos démarches administratives et académiques afin de maximiser vos chances de réussite, quel que soit votre profil.",
+    "pillars_tag": "Nos piliers",
+    "pillars_title": "Ce qui nous distingue",
+    "p1": "Fiabilité de nos services et transparence totale",
+    "p2": "Proximité avec les étudiants — nous sommes passés par là",
+    "p3": "Accessibilité pour tous les profils, partout au Maroc",
+    "p4": "Réseau actif en France et au Maroc",
+    "p5": "Contacts privilégiés avec universités françaises de renom"
+  },
+  "team": {
+    "tag": "L'équipe CAEMI",
+    "title": "Notre Équipe",
+    "sub": "Des experts qui vous accompagnent avec passion et expertise",
+    "network_morocco": "Réseau Maroc",
+    "network_france": "Réseau France",
+    "local": "Coordinateurs locaux",
+    "partners": "Partenaires universitaires",
+    "badge_terrain": "Terrain",
+    "badge_suivi": "Suivi"
+  },
+  "form": {
+    "tag": "Commencer maintenant",
+    "title": "Remplissez votre demande",
+    "desc": "Complétez ce formulaire et notre équipe vous contactera dans les plus brefs délais pour démarrer votre accompagnement personnalisé.",
+    "full_name": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "city": "Ville",
+    "level": "Niveau actuel",
+    "level_cpge": "CPGE",
+    "level_bac": "Bac",
+    "level_licence": "Licence",
+    "level_master": "Master",
+    "level_other": "Autre",
+    "target_field": "Domaine visé",
+    "target_region": "Région en France",
+    "message": "Message / Notes",
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours...",
+    "success_title": "Demande envoyée !",
+    "success_desc": "Notre équipe vous contactera très bientôt.",
+    "privacy": "Vos informations sont confidentielles et utilisées uniquement dans le cadre de votre accompagnement CAEMI."
+  },
+  "cta": {
+    "title_1": "Prêt à commencer",
+    "title_2": "votre aventure ?",
+    "desc": "Contactez-nous dès aujourd'hui et donnons ensemble le premier pas vers votre avenir académique en France."
+  },
+  "footer": {
+    "tagline": "Les leaders de demain · L'héritage d'hier",
+    "rights": "© 2024 CAEMI — Tous droits réservés"
+  }
+}
