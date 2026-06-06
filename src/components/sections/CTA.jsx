@@ -109,7 +109,7 @@ export default function CTA() {
               <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.26em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.28)' }}>
                 Nous contacter
               </span>
-              <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.22)' }}>
+              <span style={{ fontFamily: F, fontSize: '8.5px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(13,31,60,0.22)' }} className='hidden lg:block'>
                 CAEMI · Maroc → France
               </span>
             </div>
@@ -140,7 +140,7 @@ export default function CTA() {
                   Email
                 </span>
                 {/* Value */}
-                <span className="transition-colors duration-300 group-hover:text-[#2EAADC]" style={{ fontFamily: F, fontSize: '14px', fontWeight: 500, color: 'rgba(13,31,60,0.7)', flex: 1 }}>
+                <span className="transition-colors duration-300 group-hover:text-[#2EAADC]" style={{ fontFamily: F, fontSize: '13.3px', fontWeight: 500, color: 'rgba(13,31,60,0.7)', flex: 1 }}>
                   caemi0901@gmail.com
                 </span>
                 <ArrowUpRight size={13} strokeWidth={2} className="hidden lg:block text-[rgba(13,31,60,0.2)] group-hover:text-[#2EAADC] transition-colors duration-300 flex-shrink-0" />
