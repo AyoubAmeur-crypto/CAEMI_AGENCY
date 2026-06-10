@@ -5,7 +5,6 @@ export default function FloatingWhatsApp() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show button after scrolling down past the hero section
       if (window.scrollY > window.innerHeight) {
         setIsVisible(true);
       } else {
@@ -14,7 +13,7 @@ export default function FloatingWhatsApp() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check on mount
+    handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
